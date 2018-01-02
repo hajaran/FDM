@@ -1,0 +1,35 @@
+h1, h2, h3, h4, h5, h6 {
+	clear: both;
+	font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+	color: $color5;
+	line-height: 1.618em;
+	font-weight: 400;
+}
+
+h2 {
+	color: $color1;
+	line-height: 1.618em;
+	font-weight: 400;
+}
+
+h3 {
+	color: $color3;
+	line-height: 1.618em;
+	font-weight: 400;
+}
+
+h4 {
+	font-weight: 400;
+	line-height: 1.618em;
+}
+
+h6 {
+	text-transform: uppercase;
+}
+
+.page-title {
+	text-align: center;
+}

@@ -1,0 +1,133 @@
+.temoignages {
+	text-align: center;
+	background: #F2F2F2;
+	border-radius: 4px;
+	padding: 30px 0px;
+}
+
+.card-sml {
+	display: inline-block;
+	height: 230px;
+	width: 200px;
+	background: white;
+	margin: 10px;
+	border-radius: 4px;
+	padding: 15px;
+	position: relative;
+}
+
+.card-sml h3 {
+	font-size: 16px;
+	margin: 0px;
+}
+
+.card-sml p {
+	font-size: 12px;
+	line-height: 16px;
+}
+
+.card-sml p:before {
+	content: "\f10e";
+	display: block;
+	margin: 10px auto;
+	font: normal normal normal 20px/1 FontAwesome;
+	color: #a8dadc;
+}
+
+.temoignages .card-sml .plus-sign {
+	position: absolute;
+	bottom:-15px;
+	left: 85px;
+}
+
+.plus-sign {
+	display: block;
+	height: 30px;
+	width: 30px;
+	border-radius: 50px;
+	background-color: #1d3557;
+	transition: all 0.3s;
+	z-index: 2;
+}
+
+.plus-sign span {
+	width: 15px;
+	height: 2px;
+	background: white;
+	display: block;
+	position: absolute;
+	top: 14px;
+	left: 7.5px;
+	border-radius: 4px;
+
+}
+
+.plus-sign span:nth-child(2) {
+	transform: rotate(90deg);
+}
+
+.plus-sign:before {
+	content:"";
+	display: block;
+	width: 50px;
+	height: 50px;
+	background: transparent;
+	box-sizing: border-box;
+	border-radius: 50px;
+	position: absolute;
+	top: -10px;
+	left: -10px;
+	border: solid 2px #1d3557 ;
+	transform: scale(0.6);
+	opacity: 1;
+	transition: all 0.5s;
+}
+
+.plus-sign:hover {
+	transform: scale(1.1);
+	background-color: #a8dadc;
+}
+
+.plus-sign:hover:before {
+	border: solid 2px #a8dadc ;
+	transform: scale(1);
+	opacity: 0;
+}
+
+.temoignages .card-sml .category-sml {
+	font-size: 11px;
+	text-transform: uppercase;
+	position: absolute;
+	left: 50%;
+	bottom: 30px;
+	transform: translateX(-50%);
+}
+
+.keywords {
+	display: flex;
+	padding: 15px;
+	background: #F2F2F2;
+	border-radius: 4px;
+	margin-top: 30px;
+	align-items: center;
+}
+
+.keywords .instructions {
+	flex-basis: 25%
+}
+
+.keywords .keywords-list{
+	flex-basis: 75%
+}
+
+.keywords .word {
+	font-size: 11px;
+	color: #1d3557;
+	display: inline;
+	padding: 5px 10px;
+	margin: 3px;
+	border: solid 1px #1d3557;
+	border-radius: 4px;
+}
+
+

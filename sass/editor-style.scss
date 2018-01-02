@@ -1,0 +1,14 @@
+@import "variables-site/variables-site";
+@import "mixins/mixins-master";
+
+/*--------------------------------------------------------------
+# Normalize
+--------------------------------------------------------------*/
+@import "normalize";
+@import "typography/typography";
+
+body#tinymce {
+	padding: 30px !important;
+	background: white;
+
+}
